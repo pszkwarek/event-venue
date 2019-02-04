@@ -4,6 +4,8 @@ import Header from './components/header_footer/Header';
 import Featured from './components/featured';
 import Highlights from './components/Highlights';
 import VenueNfo from './components/venueNfo/';
+import Location from './components/location';
+import Footer from './components/header_footer/Footer';
 
 
 class App extends Component {
@@ -15,6 +17,8 @@ class App extends Component {
         <Highlights />
         <VenueNfo />
 
+        <Location />
+        <Footer />
       </div>
     );
   }
