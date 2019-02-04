@@ -60,3 +60,4 @@ class Pricing extends Component {
 }
 
 export default Pricing;
+
